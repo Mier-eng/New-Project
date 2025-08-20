@@ -1,4 +1,5 @@
 .container {
+  position: relative;
   max-width: 1152px;
   padding: 0px 15px;
   margin: 0 auto;
@@ -6,7 +7,7 @@
 }
 .header {
   padding-top: 29px;
- background: rgba(207, 0, 99, 1);
+background: linear-gradient(287.15deg, #450e4b 0, #3c0c41 24.48%, rgba(207, 0, 99, 0) 100%), #cf0063;
 }
 .header-nav {
   display: flex;
@@ -29,10 +30,8 @@
   letter-spacing: 0%;
   text-align: left;
 }
-.header-row {
-  display: flex;
-  justify-content: space-between;
-  column-gap: 30px;
+.header-container-content {
+ 
 }
 .header-heading{
   color: rgba(255, 255, 255, 1);
@@ -54,10 +53,10 @@ letter-spacing: 0%;
 text-align: left;
 }
 .header-content{
-  max-width: 700px;
   margin-top: 277.5px;
 }
 button{
+  margin-top: 10px;
   padding: 20px 45px;
   outline: none;
   border: none;
@@ -73,14 +72,13 @@ letter-spacing: 0%;
 text-align: left;
 cursor: pointer;
 }
-.header-img{
+.img{
 position: absolute;
-margin-left: 650px;
-margin-top: 100px;
-
+top: 100px;
+right: 0;
 }
 .header-img2{
-  text-align: center;
   margin-top: 150px;
   padding: 30px;
+text-align: center;
 }
