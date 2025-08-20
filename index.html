@@ -50,6 +50,40 @@
         </div>
       </div>
     </header>
+    <!-- Тут, Арсен, я отделил этот image-container-content от шапки.
+     Думаю, так правильно. Скажи, если неправильно. Я старался правльно подбирать названия для классов.
+Теперь попробую объяснить, что я сделал. Я создал image-container-content, чтобы поместить туда две вещи.
+image-container и img3. В image-container указал следующие данные: 
+
+.image-container{
+ width: 100%; 
+  max-width: 1152px; 
+  margin: 0 auto;
+}
+  В img3 указал такие данные:
+
+  .img3 img{
+     width: 100%; 
+  height: auto; 
+  display: block; 
+}
+P.s.(Я хз как заставить эту картинку подстраиваться под ширину экрана другим способом. Если есть идеи получше, скажи, пожалуйста.)
+    
+Как ты и сказал, при адаптации я использую @media только с теми размерами, что ты мне прислал.
+ 
+width: 100%; я убрал из .image-container в CSS, чтобы посмотреть, что будет. В итоге ничего не изменилось.
+
+
+--> 
+    <div class="image-container-content">
+      <div class="image-container">
+      <div class="img3">
+          <img src="IMAGE (3).png" alt="">
+      </div>
+    </div>
+    </div>
+    
+
     <script src="main.js"></script>
   </body>
 </html>

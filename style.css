@@ -74,11 +74,45 @@ cursor: pointer;
 }
 .img{
 position: absolute;
-top: 100px;
+top: 85px;
 right: 0;
+left:619px;
+
 }
 .header-img2{
   margin-top: 150px;
   padding: 30px;
 text-align: center;
+}
+@media (max-width: 1279px) {
+  .img{
+   display: none;
+}
+ 
+}
+
+
+.image-container-content{
+    background: rgba(27, 27, 27, 1);
+    
+}
+.image-container{
+
+  max-width: 1152px; 
+  margin: 0 auto;
+}
+.img3{
+   padding-top: 301px;
+  
+}
+
+@media (max-width: 640px) {
+  .image-container {
+    max-width: 100%;
+  }
+}
+.img3 img{
+     width: 100%; 
+  height: auto; 
+  display: block; 
 }
