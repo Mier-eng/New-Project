@@ -3,12 +3,14 @@
     display: none;
   }
 }
-
-@media (max-width: 1110px) {
-      .food-heading-content2 {
-    flex-direction: column;
-    text-align: center;
+@media (max-width: 1024px) and (min-width: 768px) {
+  .food-heading-content2 {
+    flex-wrap: nowrap; /* Запрещаем перенос на новую строку */
+    justify-content: space-around; /* Распределяем блоки равномерно по ширине */
   }
+}
+@media (max-width: 767px) {
+  
        .food-heading-content3 {
     flex-direction: column;
     text-align: center;
