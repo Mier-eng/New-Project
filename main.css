@@ -1,0 +1,216 @@
+.image-container-content {
+  background: rgba(27, 27, 27, 1);
+}
+.image-container {
+  max-width: 1152px;
+  margin: 0 auto;
+}
+.img3 {
+  padding-top: 170px;
+}
+.container-food {
+  background: rgba(34, 34, 34, 0.4) rgba(0, 0, 0, 1) rgba(34, 34, 34, 1)
+    rgba(51, 51, 51, 1) rgba(107, 107, 107, 1) rgba(168, 168, 168, 1)
+    rgba(211, 211, 211, 1) rgba(214, 214, 214, 1) rgba(253, 11, 125, 1);
+}
+
+.promo {
+  color: rgba(255, 255, 255, 1);
+  font-family: Gothic A1;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.img3 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+.food {
+  position: relative;
+  max-width: 1152px;
+  padding: 0px 15px;
+  margin: 0 auto;
+  box-sizing: content-box;
+}
+
+.food-text {
+  color: rgba(0, 0, 0, 1);
+  font-family: Gothic A1;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.Lorem-text {
+  color: rgba(107, 107, 107, 1);
+  font-family: Gothic A1;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+}
+
+.food-heading-content {
+  display: flex;
+  align-items: center;
+  padding-top: 80.5px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+.food-heading {
+  margin-top: 10px;
+  width: 272px;
+  
+}
+.food1-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.food-heading2 {
+  padding-top: 20px;
+  max-width: 310px;
+  text-align: center;
+  margin: 30px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.food2-text {
+  margin-top: 40px;
+  margin-bottom: 17px;
+  color: rgba(0, 0, 0, 1);
+  font-family: Gothic A1;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+.food-heading-content2 {
+  display: flex;
+  align-items: center;
+  padding-top: 70.5px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.food-heading-content3{
+  max-width: 1152px;
+  display: flex;
+  padding-top: 160px;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.text-under-numbers{
+color: rgba(0, 0, 0, 1);
+
+font-family: Gothic A1;
+font-size: 18px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 20px;
+}
+.num{
+  color: rgba(51, 51, 51, 1);
+font-family: Gothic A1;
+font-size: 59px;
+font-weight: 400;
+line-height: 90px;
+letter-spacing: 0%;
+text-align: center;
+}
+.numbers-and-words{
+padding-bottom: 40px;
+}
+
+
+
+.slider-container {
+  width: 90%; 
+  max-width: 670px; /* Максимальная ширина остается */
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slider-wrapper {
+  text-align: center;
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  margin-top: 4em; /* Задаем отступ в em, чтобы он масштабировался относительно шрифта */
+  max-width: 100%; /* Важно, чтобы слайд не выходил за контейнер */
+  flex-shrink: 0;
+  padding: 1.25em; 
+  color: rgba(107, 107, 107, 1);
+  font-family: Gothic A1;
+  font-size: clamp(1em, 2vw, 1.5em); 
+  font-weight: 400;
+  line-height: 1.666em; 
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.navigation {
+  text-align: center;
+  margin-top: 4.85em;
+}
+
+.navigation button {
+  margin: 0 0.3125em; 
+  cursor: pointer;
+  background: rgba(34, 34, 34, 1);
+  width: 0.4375em; 
+  height: 0.4375em; 
+  padding: 0;
+  overflow: hidden;
+}
+
+.under-main-text1{
+color: rgba(107, 107, 107, 1);
+padding-right: 30px;
+font-family: Gothic A1;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.slide-text{
+  display: flex;
+  justify-content: center;
+  padding-top: 1.0625em;
+}
+
+.under-main-text2{
+color: rgba(107, 107, 107, 1);
+
+font-family: Gothic A1;
+font-size: 16px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+padding-left: 30px;
+}
+
+.slide-main-text{
+  margin-top: 3.9375em; 
+}
+

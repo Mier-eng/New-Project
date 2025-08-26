@@ -1,3 +1,4 @@
+
 .container {
   position: relative;
   max-width: 1152px;
@@ -7,7 +8,13 @@
 }
 .header {
   padding-top: 29px;
-background: linear-gradient(287.15deg, #450e4b 0, #3c0c41 24.48%, rgba(207, 0, 99, 0) 100%), #cf0063;
+  background: linear-gradient(
+      287.15deg,
+      #450e4b 0,
+      #3c0c41 24.48%,
+      rgba(207, 0, 99, 0) 100%
+    ),
+    #cf0063;
 }
 .header-nav {
   display: flex;
@@ -21,8 +28,7 @@ background: linear-gradient(287.15deg, #450e4b 0, #3c0c41 24.48%, rgba(207, 0, 9
   font-size: 15px;
   font-weight: 400;
 }
-.nav-item {
-}
+
 .nav-link {
   color: rgba(255, 255, 255, 1);
   font-family: Gothic A1;
@@ -30,89 +36,88 @@ background: linear-gradient(287.15deg, #450e4b 0, #3c0c41 24.48%, rgba(207, 0, 9
   letter-spacing: 0%;
   text-align: left;
 }
-.header-container-content {
- 
-}
-.header-heading{
+.header-heading {
   color: rgba(255, 255, 255, 1);
-font-family: Gothic A1;
-font-size: 80px;
-font-weight: 400;
-line-height: 80px;
-letter-spacing: 0%;
-text-align: left;
+  font-family: Gothic A1;
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 80px;
+  letter-spacing: 0%;
+  text-align: left;
 }
 
-.header-content p{
-color: rgba(255, 255, 255, 1);
-font-family: Gothic A1;
-font-size: 30px;
-font-weight: 400;
-line-height: 44px;
-letter-spacing: 0%;
-text-align: left;
-}
-.header-content{
+
+.header-content {
   margin-top: 277.5px;
 }
-button{
+.button {
   margin-top: 10px;
   padding: 20px 45px;
   outline: none;
   border: none;
   background-color: rgba(252, 10, 126, 1);
-  
-color: rgba(255, 255, 255, 1);
-
-font-family: Gothic A1;
-font-size: 15px;
-font-weight: 400;
-line-height: 20px;
-letter-spacing: 0%;
-text-align: left;
-cursor: pointer;
+  color: rgba(255, 255, 255, 1);
+  font-family: Gothic A1;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  cursor: pointer;
 }
-.img{
-position: absolute;
-top: 85px;
-right: 0;
-left:619px;
-
+.img {
+  position: absolute;
+  top: 85px;
+  right: 0;
+  padding-left: 60px;
+  width: auto;
+  height: auto;
+  max-width: 50%;
+  transition: width 0.3s ease;
 }
-.header-img2{
+.header-img2 {
   margin-top: 150px;
   padding: 30px;
-text-align: center;
-}
-@media (max-width: 1279px) {
-  .img{
-   display: none;
-}
- 
+  text-align: center;
+  cursor: pointer; /* Показывает, что это кнопка */
 }
 
 
-.image-container-content{
-    background: rgba(27, 27, 27, 1);
-    
+.nav-button {
+  outline: 0;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  width: 30px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  cursor: pointer;
+  display: none;
+  z-index: 9;
 }
-.image-container{
-
-  max-width: 1152px; 
-  margin: 0 auto;
+.nav-button::before,
+.nav-button i,
+.nav-button:after {
+  width: 100%;
+  content: "";
+  height: 2px;
+  background-color: azure;
+  border-radius: 3px;
+  transition: all 0.2s ease;
 }
-.img3{
-   padding-top: 301px;
-  
+.nav-button.active i {
+  display: none;
 }
-
-@media (max-width: 640px) {
-  .image-container {
-    max-width: 100%;
-  }
+.nav-button.active:before {
+  position: absolute;
+  top: 9px;
+  transform: rotate(45deg);
 }
-.img3 img{
-     width: 100%; 
-  height: auto; 
-  display: block; 
+.nav-button.active:after {
+  position: absolute;
+  top: 9px;
+  transform: rotate(-45deg);
 }

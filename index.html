@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="norm.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="media.css" />
     <title>Richard</title>
   </head>
   <body>
@@ -12,9 +14,9 @@
       <div class="container">
         <div class="header-nav">
           <a href="" class="logo"
-            ><img src="IMAGE.png" alt="" width="120px" ; height="43px"
+            ><img src="img/IMAGE.png" alt="" width="120px" ; height="43px"
           /></a>
-          <nav class="nav">
+          <nav class="nav open">
             <ul class="nav-list">
               <li class="nav-item">
                 <a href="#" class="nav-link">About</a>
@@ -29,61 +31,162 @@
                 <a href="#" class="nav-link">Download</a>
               </li>
             </ul>
+            <button class="nav-button" type="button">
+              <i></i>
+            </button>
           </nav>
         </div>
         <div class="header-container-content">
           <div class="header-content">
             <div class="img">
-              <img src="IMAGE (1).png" alt="" />
+              <img src="img/IMAGE (1).png" alt="" />
             </div>
             <h1 class="header-heading">Momentum</h1>
-            <p>Launch your product — and savor the momentum.</p>
-            <button
-              type="button"
-              onclick="location.href='https://yandex.ru/images/search?pos=0&from=tabbar&img_url=https%3A%2F%2Ffunny.klev.club%2Fsmeh%2Fuploads%2Fposts%2F2024-04%2Ffunny-klev-club-eum1-p-smeshnie-kartinki-arsen-24.jpg&text=Арсен%2C+помоги%21&rpt=simage&lr=10281'">
-              Get the App
-            </button>
-            <div class="header-img2">
-              <img src="IMAGE (2).png" alt="" />
+            <p class="promo">Launch your product — and savor the momentum.</p>
+            <button class="button" type="button" onclick="">Get the App</button>
+            <div class="header-img2" id="scrollButton">
+              <img src="img/IMAGE (2).png" alt="" />
             </div>
           </div>
         </div>
       </div>
     </header>
-    <!-- Тут, Арсен, я отделил этот image-container-content от шапки.
-     Думаю, так правильно. Скажи, если неправильно. Я старался правльно подбирать названия для классов.
-Теперь попробую объяснить, что я сделал. Я создал image-container-content, чтобы поместить туда две вещи.
-image-container и img3. В image-container указал следующие данные: 
-
-.image-container{
- width: 100%; 
-  max-width: 1152px; 
-  margin: 0 auto;
-}
-  В img3 указал такие данные:
-
-  .img3 img{
-     width: 100%; 
-  height: auto; 
-  display: block; 
-}
-P.s.(Я хз как заставить эту картинку подстраиваться под ширину экрана другим способом. Если есть идеи получше, скажи, пожалуйста.)
-    
-Как ты и сказал, при адаптации я использую @media только с теми размерами, что ты мне прислал.
- 
-width: 100%; я убрал из .image-container в CSS, чтобы посмотреть, что будет. В итоге ничего не изменилось.
-
-
---> 
     <div class="image-container-content">
       <div class="image-container">
-      <div class="img3">
-          <img src="IMAGE (3).png" alt="">
+        <div class="img3">
+          <img src="img/IMAGE (3).png" alt="" />
+        </div>
       </div>
     </div>
+    <div class="container-food">
+      <div class="food">
+        <div class="food-heading-content">
+          <div class="food-heading">
+            <img class="Frame-img" src="img/Frame.jpg" alt="" />
+            <h2 class="food-text">Cay sociis nato que penatibus et</h2>
+            <p class="Lorem-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum tristique.
+            </p>
+          </div>
+          <img class="food1-img" src="img/food1.png" alt="" />
+        </div>
+        <div class="food-heading-content">
+          <img class="food1-img" src="img/food2.png" alt="" />
+          <div class="food-heading">
+            <img class="Frame-img" src="img/Frame.png" alt="" />
+            <h2 class="food-text">Amet Ipsum</h2>
+            <p class="Lorem-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum tristique.
+            </p>
+          </div>
+        </div>
+        <div class="food-heading-content">
+          <div class="food-heading">
+            <img class="Frame-img" src="img/Frame (1).png" alt="" />
+            <h2 class="food-text">Magna Porta Sit Bibendum</h2>
+            <p class="Lorem-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum tristique.
+            </p>
+          </div>
+          <img class="food1-img" src="img/food3.png" alt="" />
+        </div>
+      </div>
+      <div class="food-heading-content2">
+        <div class="food-heading2">
+          <img src="img/IMAGE (4).png" alt="" />
+          <p class="food2-text">Activity Notifications</p>
+          <p class="Lorem-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            varius enim in eros elementum tristique.
+          </p>
+        </div>
+        <div class="food-heading2">
+          <img src="img/IMAGE (5).png" alt="" />
+          <p class="food2-text">Custom Timing</p>
+          <p class="Lorem-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            varius enim in eros elementum tristique.
+          </p>
+        </div>
+        <div class="food-heading2">
+          <img src="img/IMAGE (6).png" alt="" />
+          <p class="food2-text">Mobile Optimized</p>
+          <p class="Lorem-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            varius enim in eros elementum tristique.
+          </p>
+        </div>
+      </div>
+      <div class="food-heading-content3">
+        <div class="numbers-and-words">
+          <p class="num">+12k</p>
+          <p class="text-under-numbers">Nibh Elit Tristique</p>
+        </div>
+        <div class="numbers-and-words">
+          <p class="num">84</p>
+          <p class="text-under-numbers">Aenean Condimentum</p>
+        </div>
+        <div class="numbers-and-words">
+          <p class="num">3,07</p>
+          <p class="text-under-numbers">Quam Inceptos</p>
+        </div>
+        <div class="numbers-and-words">
+          <p class="num">24h</p>
+          <p class="text-under-numbers">Ullamcorper</p>
+        </div>
+      </div>
+      <div class="container-food">
+        <div class="food">
+          <div class="food-heading-content">
+            <div class="food-heading">
+            <img class="Frame-img" src="img/Frame (1).png" alt="" />
+            <h2 class="food-text">Sem Risus Elit Vestibulum</h2>
+            <p class="Lorem-text">
+              Nulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod.
+            </p>
+          </div>
+          <img class="food1-img" src="img/buter.jpg" alt="" />
+        </div>
+        <div class="food-heading-content">
+          <img class="food1-img" src="img/tortor.jpg" alt="" />
+          <div class="food-heading">
+            <img class="Frame-img" src="img/Frame (1).png" alt="" />
+            <h2 class="food-text">Parturient Tortor</h2>
+            <p class="Lorem-text">
+              Nulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="slider-container">
+        <div class="slider-wrapper">
+            <div class="slide">
+              <img src="img/IMAGE (7).png" alt="">
+                <p class="slide-main-text">HeadNulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Pus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod.ing</p>
+            <div class="slide-text">
+                <p class="under-main-text1">Joshua Home</p>
+            <p class="under-main-text2">New York Times</p>
+            </div>
+              </div>
+            <div class="slide">
+              <img src="img/IMAGE (7).png" alt="">
+                <p class="slide-main-text">HeadNulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Pus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod.ing</p>
+            <div class="slide-text">
+                <p class="under-main-text1">Nulla vitae elit libero, a pharetra augue.</p>
+            <p class="under-main-text2">New York Times</p>
+            </div>
+              </div>
+        </div>
     </div>
-    
 
+    <div class="navigation">
+        <button id="prevBtn"></button>
+        <button id="nextBtn"></button>
+    </div>
+    </div>
     <script src="main.js"></script>
   </body>
 </html>
