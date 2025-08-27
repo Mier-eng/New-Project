@@ -73,6 +73,16 @@
 
 
 @media (max-width: 640px) {
+  .navigation button {
+  margin: 0 0.3125em; 
+  cursor: pointer;
+  background: rgba(34, 34, 34, 1);
+  width: 7px; 
+  height: 7px; 
+  padding: 0;
+  overflow: hidden;
+  display: none;
+}
   .image-container {
     max-width: 100%;
   }
