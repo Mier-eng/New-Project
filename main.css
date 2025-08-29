@@ -214,3 +214,77 @@ padding-left: 25px;
   margin-top: 3.9375em; 
 }
 
+.under-navigation{
+ max-width: 1152px;
+margin: 0 auto;
+padding-top: 160px;
+  
+}
+.under-navigation-img1{
+  margin-bottom: 100px;
+  width:100%;
+    height: auto;
+  display: block;
+
+}
+.under-navigation-img2{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.vector-container{
+  
+    background: linear-gradient(276.18deg, #6E28B1 0%, rgba(0, 0, 0, 0) 100%), #fc0a7e;
+
+}
+.vector p{
+  padding-top: 125px;
+  color: rgba(255, 255, 255, 1);
+font-family: Gothic A1;
+font-size: 38px;
+font-weight: 400;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+padding-bottom: 40px;
+}
+.vector-button{
+  
+  text-align: center;
+  padding-bottom: 116px;
+}
+.vector-button1{
+  padding: 15px 35px;
+  outline: none;
+  border: none;
+  background-color: rgba(252, 10, 126, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: Gothic A1;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+text-align: center;
+  cursor: pointer;
+}
+.vector-button2{
+    padding: 15px 35px;
+  outline: none;
+box-sizing: border-box;
+ background-color: rgba(252, 10, 126, 1);
+  color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: Gothic A1;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+text-align: center;
+  cursor: pointer;
+}
+.vector-button1:hover,
+.vector-button2:hover {
+ background-color: transparent;
+  box-sizing: border-box;
+  border: 1px solid rgba(176, 75, 179, 1);
+}
