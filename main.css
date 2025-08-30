@@ -30,7 +30,6 @@
   display: block;
 }
 
-
 .food {
   position: relative;
   max-width: 1152px;
@@ -64,12 +63,10 @@
   padding-top: 80.5px;
   justify-content: space-evenly;
   flex-wrap: wrap;
-   
 }
 .food-heading {
   margin-top: 10px;
   width: 272px;
-  
 }
 .food1-img {
   max-width: 100%;
@@ -104,7 +101,7 @@
   flex-wrap: wrap;
 }
 
-.food-heading-content3{
+.food-heading-content3 {
   max-width: 1152px;
   display: flex;
   padding-top: 160px;
@@ -113,34 +110,32 @@
   flex-wrap: wrap;
   margin: 0 auto;
 }
-.text-under-numbers{
-color: rgba(0, 0, 0, 1);
+.text-under-numbers {
+  color: rgba(0, 0, 0, 1);
 
-font-family: Gothic A1;
-font-size: 18px;
-font-weight: 700;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: center;
-margin-bottom: 20px;
+  font-family: Gothic A1;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 20px;
 }
-.num{
+.num {
   color: rgba(51, 51, 51, 1);
-font-family: Gothic A1;
-font-size: 59px;
-font-weight: 400;
-line-height: 90px;
-letter-spacing: 0%;
-text-align: center;
+  font-family: Gothic A1;
+  font-size: 59px;
+  font-weight: 400;
+  line-height: 90px;
+  letter-spacing: 0%;
+  text-align: center;
 }
-.numbers-and-words{
-padding-bottom: 40px;
+.numbers-and-words {
+  padding-bottom: 40px;
 }
-
-
 
 .slider-container {
-  width: 90%; 
+  width: 90%;
   max-width: 670px; /* Максимальная ширина остается */
   margin: 0 auto;
   overflow: hidden;
@@ -156,12 +151,12 @@ padding-bottom: 40px;
   margin-top: 4em; /* Задаем отступ в em, чтобы он масштабировался относительно шрифта */
   max-width: 100%; /* Важно, чтобы слайд не выходил за контейнер */
   flex-shrink: 0;
-  padding: 1.25em; 
+  padding: 1.25em;
   color: rgba(107, 107, 107, 1);
   font-family: Gothic A1;
-  font-size: clamp(1em, 2vw, 1.5em); 
+  font-size: clamp(1em, 2vw, 1.5em);
   font-weight: 400;
-  line-height: 1.666em; 
+  line-height: 1.666em;
   letter-spacing: 0%;
   text-align: center;
 }
@@ -172,88 +167,84 @@ padding-bottom: 40px;
 }
 
 .navigation button {
-  margin: 0 0.3125em; 
+  margin: 0 0.3125em;
   cursor: pointer;
   background: rgba(34, 34, 34, 1);
-  width: 7px; 
-  height: 7px; 
+  width: 7px;
+  height: 7px;
   padding: 0;
   overflow: hidden;
 }
 
-.under-main-text1{
-color: rgba(107, 107, 107, 1);
-padding-right: 25px;
-font-family: Gothic A1;
-font-size: 16px;
-font-weight: 400;
-line-height: 30px;
-letter-spacing: 0%;
-text-align: center;
+.under-main-text1 {
+  color: rgba(107, 107, 107, 1);
+  padding-right: 25px;
+  font-family: Gothic A1;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
 }
 
-.slide-text{
+.slide-text {
   display: flex;
   justify-content: center;
   padding-top: 1.0625em;
 }
 
-.under-main-text2{
-color: rgba(107, 107, 107, 1);
+.under-main-text2 {
+  color: rgba(107, 107, 107, 1);
 
-font-family: Gothic A1;
-font-size: 16px;
-font-weight: 700;
-line-height: 30px;
-letter-spacing: 0%;
-text-align: center;
-padding-left: 25px;
+  font-family: Gothic A1;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-left: 25px;
 }
 
-.slide-main-text{
-  margin-top: 3.9375em; 
+.slide-main-text {
+  margin-top: 3.9375em;
 }
 
-.under-navigation{
- max-width: 1152px;
-margin: 0 auto;
-padding-top: 160px;
-  
+.under-navigation {
+  max-width: 1152px;
+  margin: 0 auto;
+  padding-top: 160px;
 }
-.under-navigation-img1{
+.under-navigation-img1 {
   margin-bottom: 100px;
-  width:100%;
-    height: auto;
-  display: block;
-
-}
-.under-navigation-img2{
   width: 100%;
   height: auto;
   display: block;
 }
-.vector-container{
-  
-    background: linear-gradient(276.18deg, #6E28B1 0%, rgba(0, 0, 0, 0) 100%), #fc0a7e;
-
+.under-navigation-img2 {
+  width: 100%;
+  height: auto;
+  display: block;
 }
-.vector p{
+.vector-container {
+  background: linear-gradient(276.18deg, #6e28b1 0%, rgba(0, 0, 0, 0) 100%),
+    #fc0a7e;
+}
+.vector p {
   padding-top: 125px;
   color: rgba(255, 255, 255, 1);
-font-family: Gothic A1;
-font-size: 38px;
-font-weight: 400;
-line-height: 48px;
-letter-spacing: 0%;
-text-align: center;
-padding-bottom: 40px;
+  font-family: Gothic A1;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-bottom: 40px;
 }
-.vector-button{
-  
+.vector-button {
   text-align: center;
   padding-bottom: 116px;
 }
-.vector-button1{
+.vector-button1 {
   padding: 15px 35px;
   outline: none;
   border: none;
@@ -264,14 +255,14 @@ padding-bottom: 40px;
   font-weight: 400;
   line-height: 20px;
   letter-spacing: 0%;
-text-align: center;
+  text-align: center;
   cursor: pointer;
 }
-.vector-button2{
-    padding: 15px 35px;
+.vector-button2 {
+  padding: 15px 35px;
   outline: none;
-box-sizing: border-box;
- background-color: rgba(252, 10, 126, 1);
+  box-sizing: border-box;
+  background-color: rgba(252, 10, 126, 1);
   color: rgba(255, 255, 255, 1);
   color: rgba(255, 255, 255, 1);
   font-family: Gothic A1;
@@ -279,12 +270,101 @@ box-sizing: border-box;
   font-weight: 400;
   line-height: 20px;
   letter-spacing: 0%;
-text-align: center;
+  text-align: center;
   cursor: pointer;
 }
 .vector-button1:hover,
 .vector-button2:hover {
- background-color: transparent;
+  background-color: transparent;
   box-sizing: border-box;
   border: 1px solid rgba(176, 75, 179, 1);
+}
+.footer-container {
+  position: relative;
+  background: rgba(27, 27, 27, 1);
+}
+.footer-text {
+  padding-top: 89px;
+}
+.footer-text h2 {
+  color: rgba(255, 255, 255, 1);
+max-width: 100%;
+  font-family: Gothic A1;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.footer-container {
+  background: rgba(27, 27, 27, 1);
+}
+.footer-text p {
+  color: rgba(107, 107, 107, 1);
+ max-width: 100%;
+  font-family: Gothic A1;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.footer-form{
+  
+  padding-top: 40px;
+  text-align: center;
+    font-size: 0; /* Убрать пробелы между inline элементами */
+}
+.footer-form input{
+  padding: 15px 45px;
+color: rgba(28, 28, 28, 1);
+border-radius: 3px 0px 0px 3px;
+box-shadow: 0px 0px 0px 0px rgba(252, 10, 126, 1);
+background: rgba(255, 255, 255, 1);
+font-family: Gothic A1;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+ border: none;
+  outline: none;
+
+}
+.footer-form button{
+  padding: 15px 45px;
+  color: rgba(28, 28, 28, 1);
+border-radius: 0px 3px 3px 0px;
+background: rgba(252, 10, 126, 1);
+font-family: Gothic A1;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.footer-img{
+  padding-top: 70.63px;
+  text-align: center;
+}
+.footer-img-text ul{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+
+}
+.footer-img-text ul li{
+  margin-top: 29px;
+ color: rgba(107, 107, 107, 1);
+font-family: Gothic A1;
+font-size: 11px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+  margin-bottom: 40px;
+
 }
