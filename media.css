@@ -77,17 +77,19 @@ padding-top: 100px;
 
 
 @media (max-width: 768px) {
+  .footer-img-text ul {
+    gap: 15px; 
+  }
+      .footer-text p {
+        font-size: 10px;
+  }
       .footer-form input,
       .footer-form button {
         padding: 10px 15px;
         font-size: 14px;
   }
 }
-@media (max-width: 768px) {
-  .footer-img-text ul {
-    gap: 15px; /* Уменьшаем расстояние на маленьких экранах */
-  }
-}
+
 
 @media (max-width: 640px) {
   .navigation button {
